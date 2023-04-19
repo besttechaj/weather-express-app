@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- {{>headerlinks}} -->
+  </head>
+  <body>
+    <div class="container-fluid main_menu">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"
+              ><i class="fas fa-snowflake"></i>
+              Mishra_Weather
+              <i class="fas fa-snowflake"></i
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/weather">Weather</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- {{>navbar}} -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side div -->
+            <div class="col-md-6 col-12 main_header_right">
+              <figure>
+                <img
+                  src="https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=612x612&w=0&h=LpjdY6okVWiKh8LT_LqcXz53kWaXVf47ThXKwMcCoHI="
+                  alt="Lemma"
+                  class="img-fluid"
+                  title="Lemma"
+                />
+              </figure>
+            </div>
+
+            <!-- right side div -->
+
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Welcome to WeatherApp</p>
+              <h1>
+                I Am A
+                <span class="text_clr">Mern Stack Developer</span>,Youtuber And
+                A Freelancer
+              </h1>
+              <!-- <a href="/weather"> <button>About me</button> </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer div -->
+    {{>footer}}
+  </body>
+</html>
